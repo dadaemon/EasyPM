@@ -1,0 +1,19 @@
+author: barryg
+database: false
+description: EasyPM
+main: me.barryg.EasyPM.EasyPM
+name: EasyPM
+startup: postworld
+url: 
+version: '1.3'
+commands:
+   epm:
+      description: EasyPM Help
+      usage: To use EasyPM type /<command> help
+   lockpm:
+      description: EasyPM Lock
+      usage: To use EasyPM Lock type /<command> help
+permissions:
+    easypm.admin:
+        description: Admin permission
+        default: op
